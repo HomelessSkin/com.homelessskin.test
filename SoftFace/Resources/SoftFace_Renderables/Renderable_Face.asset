@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45284cdf5137e9144816707693ff38d2, type: 3}
+  m_Name: Renderable_Face
+  m_EditorClassIdentifier: 
+  ID: -230602360
+  ReceiveShadows: 0
+  ShadowCasting: 0
+  Mesh: {fileID: -3214521003866156968, guid: 7236bdb40e76daf4c8b8d69b6b252a9f, type: 3}
+  Material: {fileID: 2100000, guid: 65a36e7f16e45894a8287b10085bb744, type: 2}

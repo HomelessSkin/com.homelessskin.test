@@ -1,0 +1,18 @@
+{
+  "name": "com.homelessskin.test",
+  "displayName": "Test",
+  "version": "0.0.0",
+  "description": "test",
+  "author": {
+    "name": "RU_1n",
+    "email": "your@email.com"
+  },
+  "keywords": [
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/homelessskin/shared-test.git"
+  },
+  "hideInEditor": false
+}

@@ -1,0 +1,25 @@
+{
+    "name": "com.homelessskin.test.angular",
+    "rootNamespace": "Test.Angular",
+    "references": [
+        "GUID:2665a8d13d1b3f18800f46e256720795",
+        "GUID:e0cd26848372d4e5c891c569017e11f1",
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:8819f35a0fc84499b990e90a4ca1911f",
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:63afb046c8423dd448ae7aba042ea63d",
+        "GUID:a5baed0c9693541a5bd947d336ec7659",
+        "GUID:5041aeba6492e49449016b9151fd06d8",
+        "GUID:f2a1b79514444554395b8d652afd7d7b",
+        "GUID:1f2c4f0e7db738b4482b62829efd5d9c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
