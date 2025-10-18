@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45284cdf5137e9144816707693ff38d2, type: 3}
-  m_Name: Renderable_Bone
+  m_Name: Renderable_SelectionCursor
   m_EditorClassIdentifier: com.homelessskin.core.rendering::Core.Rendering.RenderableObject
-  ID: -575805363
+  ID: 608887513
   ReceiveShadows: 0
   ShadowCasting: 0
-  Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
-  Material: {fileID: 2100000, guid: 7925d967dcddf9e4e8115e829fd7a7c6, type: 2}
+  Mesh: {fileID: -3914994750127766637, guid: 86b27949292ab2743a1a38e58862e49e, type: 3}
+  Material: {fileID: 2100000, guid: 4893241f8cbf9c64687ef2b890a2b169, type: 2}
