@@ -4,11 +4,13 @@ using Core.GamePlay;
 using Unity.Entities;
 using Unity.Transforms;
 
+using UnityEngine;
+
 namespace Test.Angular
 {
     public partial class RotatorGameSystem : GameSystemBase
     {
-        UIManager UIManager => (UIManager)UIManagerBase;
+        UIManager UIManager;
 
         protected override void OnCreate()
         {
@@ -17,6 +19,15 @@ namespace Test.Angular
             RequireForUpdate<RotatorTag>();
 
             SetState(GameEvent.Type.Idle);
+        }
+        protected override void GetRef()
+        {
+            base.GetRef();
+
+            if (!UIManager)
+                UIManager = GameObject
+                    .FindGameObjectWithTag("UIManager")
+                    .GetComponent<UIManager>();
         }
         protected override void Proceed()
         {

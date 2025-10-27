@@ -1,5 +1,5 @@
 #if UNITY_EDITOR
-using Core.UI;
+using UI;
 
 using Unity.Mathematics;
 

@@ -1,6 +1,8 @@
 #if UNITY_EDITOR
 using Core.Util;
 
+using Physics;
+
 using Unity.Burst;
 using Unity.Entities;
 using Unity.Physics;
