@@ -1,5 +1,5 @@
 #if UNITY_EDITOR
-using Core.GamePlay;
+using Core;
 
 using Unity.Entities;
 using Unity.Transforms;
