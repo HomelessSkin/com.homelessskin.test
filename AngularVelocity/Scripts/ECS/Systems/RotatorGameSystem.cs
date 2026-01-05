@@ -18,12 +18,10 @@ namespace Test.Angular
 
             RequireForUpdate<RotatorTag>();
 
-            SetState(GameEvent.Type.Idle);
+            SetState(IStateMachine.State.Idle);
         }
         protected override void GetRef()
         {
-            base.GetRef();
-
             if (!UIManager)
                 UIManager = GameObject
                     .FindGameObjectWithTag("UIManager")
@@ -31,8 +29,6 @@ namespace Test.Angular
         }
         protected override void Proceed()
         {
-            base.Proceed();
-
             var rotatorE = SystemAPI.GetSingletonEntity<RotatorTag>();
             var transform = SystemAPI.GetComponent<LocalTransform>(rotatorE);
             var info = SystemAPI.GetComponent<RotatorInfo>(rotatorE);
