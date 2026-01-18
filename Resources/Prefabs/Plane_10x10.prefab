@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3867816231794079353}
   - component: {fileID: 6518679664265133831}
   m_Layer: 0
-  m_Name: 10x10
+  m_Name: Plane_10x10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,6 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b275e5f92732148048d7b77e264ac30e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Physics.Custom::Unity.Physics.Authoring.PhysicsShapeAuthoring
+  m_ForceUniqueID: 1949988775
+  m_PrefabInstanceID: 0
   m_ShapeType: 4
   m_PrimitiveCenter:
     x: 0
@@ -84,10 +86,14 @@ MonoBehaviour:
     m_CollisionResponse:
       m_Override: 0
       m_Value: 0
+    m_DetailedStaticMeshCollision:
+      m_Override: 0
+      m_Value:
+        Value: 0
     m_Friction:
       m_Override: 0
       m_Value:
-        Value: 0.5
+        Value: 0.05
         CombineMode: 0
     m_Restitution:
       m_Override: 0
@@ -136,8 +142,8 @@ MonoBehaviour:
         Category01: 0
         Category02: 0
         Category03: 0
-        Category04: 0
-        Category05: 0
+        Category04: 1
+        Category05: 1
         Category06: 0
         Category07: 0
         Category08: 0
@@ -176,7 +182,7 @@ MonoBehaviour:
         Tag06: 0
         Tag07: 0
     m_SerializedVersion: 1
-  m_SerializedVersion: 1
+  m_SerializedVersion: 3
 --- !u!114 &3867816231794079353
 MonoBehaviour:
   m_ObjectHideFlags: 0

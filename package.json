@@ -14,5 +14,10 @@
     "type": "git",
     "url": "https://github.com/homelessskin/shared-test.git"
   },
-  "hideInEditor": false
+  "hideInEditor": false,
+  "dependencies": {
+    "com.unity.physics": "1.4.4",
+    "com.homelessskin.core": "1.0.0",
+    "com.homelessskin.rendering": "0.3.0"
+  }
 }
